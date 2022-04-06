@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.info {
+  height: 2rem;
+  margin: 1rem 0;
+
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 612px;
+  margin: 0 auto;
+}
+
+.board button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+
+  font-size: 8rem;
+  background-color: hsl(180, 50%, 75%);
+  border: 1px solid hsl(180, 50%, 50%);
+  border-radius: 0.5rem;
+}
+
+.board button:hover {
+  cursor: pointer;
+}
+
+.board button:disabled {
+  color: hsl(180, 50%, 15%);
+}
+
+.reset {
+  width: 5rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+
+  border-radius: 0.5rem;
+  border: 1px solid hsl(240, 50%, 50%);
+  background-color: hsl(240, 50%, 75%);
+  color: hsl(240, 50%, 15%);
+}
+
+.reset:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
