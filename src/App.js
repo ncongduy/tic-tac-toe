@@ -69,6 +69,7 @@ function App() {
 			<div className={styles.info}>
 				{winningPlayer !== 0 && `Player ${winningPlayer} won`}
 				{isDraw && !winningPlayer && `Draw game`}
+				{!winningPlayer && !isDraw && 'Tic Tac Toe'}
 			</div>
 
 			<div className={styles.board}>
